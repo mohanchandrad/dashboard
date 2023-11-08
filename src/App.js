@@ -1,4 +1,4 @@
-import Deshboard from "./pages/Deshboard";
+import React from "react";
 import Login from "./user/Login";
 import Ragister from "./user/Rajister";
 
@@ -8,12 +8,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={ <Login /> } />
-        <Route path="/ragister" element={<Ragister /> } />
-        <Route path="/deshboar" element={<Deshboard /> } />
+        <Route path="/" element={<Login />} />
+        <Route path="/ragister" element={<Ragister />} />
       </Routes>
-      
-      
     </div>
   );
 }
